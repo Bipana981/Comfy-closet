@@ -1,0 +1,53 @@
+input[type=text],input[type=password], input[type=email]{
+    display:block;
+    text-align:center;
+    }
+    body{
+    background-image: url(/images/product.png);
+    }
+    
+    
+    form{
+    width: 80%;
+     height: 50%;
+     padding: 2px 3px;
+    margin:auto;
+    background-color: white;
+    }
+    .register-box{
+    width: 320px;
+    background-color: #fff;
+    border-radius: 8%;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+
+    }
+    
+    div{
+    margin:20px;
+    
+    }
+    h1{
+    color:black;
+    text-align:center;
+    }
+    h3{
+        text-align: center;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+  }
+ 
